@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.SimpleHTMLPage", "1.SimpleHTMLPage\1.SimpleHTMLPage.csproj", "{ED9B82CE-6C58-49AF-ADF7-81E944DAD261}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.NestedLists", "2.NestedLists\2.NestedLists.csproj", "{63D529AB-E7DE-44A0-9E42-FD351C3BD0B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.UserProfile", "3.UserProfil\3.UserProfile.csproj", "{79119FF2-8030-447F-A3A3-166558513AC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED9B82CE-6C58-49AF-ADF7-81E944DAD261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED9B82CE-6C58-49AF-ADF7-81E944DAD261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED9B82CE-6C58-49AF-ADF7-81E944DAD261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED9B82CE-6C58-49AF-ADF7-81E944DAD261}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63D529AB-E7DE-44A0-9E42-FD351C3BD0B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63D529AB-E7DE-44A0-9E42-FD351C3BD0B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63D529AB-E7DE-44A0-9E42-FD351C3BD0B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63D529AB-E7DE-44A0-9E42-FD351C3BD0B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79119FF2-8030-447F-A3A3-166558513AC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79119FF2-8030-447F-A3A3-166558513AC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79119FF2-8030-447F-A3A3-166558513AC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79119FF2-8030-447F-A3A3-166558513AC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
