@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. RefactoringAPage", "1. RefactoringAPage\1. RefactoringAPage.csproj", "{D1700D1D-70AA-4377-B4DE-DA9E59220E23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Design1", "2. Design1\2. Design1.csproj", "{A78C4B19-63A3-487B-AD32-485C6F344DB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Design2", "3. Design2\3. Design2.csproj", "{F8762196-E8DB-4A37-A2B6-E5F35D278DC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1700D1D-70AA-4377-B4DE-DA9E59220E23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1700D1D-70AA-4377-B4DE-DA9E59220E23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1700D1D-70AA-4377-B4DE-DA9E59220E23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1700D1D-70AA-4377-B4DE-DA9E59220E23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A78C4B19-63A3-487B-AD32-485C6F344DB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A78C4B19-63A3-487B-AD32-485C6F344DB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A78C4B19-63A3-487B-AD32-485C6F344DB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A78C4B19-63A3-487B-AD32-485C6F344DB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8762196-E8DB-4A37-A2B6-E5F35D278DC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8762196-E8DB-4A37-A2B6-E5F35D278DC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8762196-E8DB-4A37-A2B6-E5F35D278DC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8762196-E8DB-4A37-A2B6-E5F35D278DC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

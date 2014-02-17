@@ -1,0 +1,76 @@
+﻿<html>
+<head>
+	<title>Simple Calculator</title>
+</head>
+<body>
+    <form name="calculator">
+    <!-- form the display to match the keypad -->
+        <table border="4" cellpadding="1" bordercolor="#FFF" bgcolor="#AFCBE" cellspacing="3" width="230">
+            <tr>
+                <td>
+                    <input type="text" size="25" length="25" value="" name="ans" style="background:beige;color:black;">
+                </td>
+            </tr>
+        </table>
+        <!-- form the keypad with buttons in a table -->
+        <table border="4" cellpadding="3" bordercolor="#FFF" cellspacing="3" width="150" bgcolor="#AFCBE">
+            <tr>
+                <td align="center">
+                    <input type="button" value="  7  " name="seven" onClick="document.calculator.ans.value+='7'">
+                </td>
+                <td align="center">
+                    <input type="button" value="  8  " name="eight" onClick="document.calculator.ans.value+='8'">
+                </td>
+                <td align="center">
+                    <input type="button" value="  9  " name="nine" onClick="document.calculator.ans.value+='9'">
+                </td>
+                <td align="center">
+                    <input type="button" value="  /  " name="divide" onClick="document.calculator.ans.value+='/'">
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <input type="button" value="  4  " name="four" onClick="document.calculator.ans.value+='4'">
+                </td>
+                <td align="center">
+                    <input type="button" value="  5  " name="five" onClick="document.calculator.ans.value+='5'">
+                </td>
+                <td align="center">
+                    <input type="button" value="  6  " name="six" onClick="document.calculator.ans.value+='6'">
+                </td>
+                <td align="center">
+                    <input type="button" value="  *  " name="multiply" onClick="document.calculator.ans.value+='*'">
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <input type="button" value="  1  " name="one" onClick="document.calculator.ans.value+='1'">
+                </td>
+                <td align="center">
+                    <input type="button" value="  2  " name="two" onClick="document.calculator.ans.value+='2'">
+                </td>
+                <td align="center">
+                    <input type="button" value="  3  " name="three" onClick="document.calculator.ans.value+='3'">
+                </td>
+                <td align="center">
+                    <input type="button" value="  -  " name="subtract" onClick="document.calculator.ans.value+='-'">
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <input type="button" value="  C  " name="clear" onClick="document.calculator.ans.value=''">
+                </td>
+                <td align="center">
+                    <input type="button" value="  0  " name="zero" onClick="document.calculator.ans.value+='0'">
+                </td>
+                <td align="center">
+                    <input type="button" value="  =  " name="equal" onClick="document.calculator.ans.value=eval(document.calculator.ans.value)">
+                </td>
+                <td align="center">
+                    <input type="button" value="  +  " name="add" onClick="document.calculator.ans.value+='+'">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

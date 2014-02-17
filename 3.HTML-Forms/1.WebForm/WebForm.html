@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>WebForm</title>
+</head>
+<body>
+    <form method="get" action="apply-now.php">
+        <table border="1" cellpadding="0" cellspacing="0">
+        <colgroup>
+            <col width="25"/>
+            <col width="40"/>
+        </colgroup>
+            <tr>
+                <td align=right><strong><label for="lastName">Last Name&nbsp;</label></strong></td>
+                <td><input type="text" id="lastName" name="lastName" size="50"/></td>
+            </tr>
+            <tr>
+                <td align=right><strong><label for="firstName">First Name&nbsp;</label></strong></td>
+                <td><input type="text" id="firstName" name="firstName" size="50"/></td>
+            </tr>
+            <tr>
+                <td align=right><strong><label for="address">Address&nbsp;</label></strong></td>
+                <td><textarea name="address" id="address" cols="40" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td align=right><strong><label for="city">City&nbsp;</label></strong></td>
+                <td><input type="text" id="city" name="city" size="33"/><strong><label for="state">State</label></strong><input type="text" id="state" size="5"/></td>
+            </tr>
+            <tr>
+                <td align=right><strong><label for="pCode">ZIP/Postal Code&nbsp;</label></strong></td>
+                <td><input type="text" pattern="[0-9]{4}" id="pCode" name="postCode" size="10" placeholder="1000"/></td>
+            </tr>
+            <tr>
+                <td align=right><strong><label for="country">Country&nbsp;</label></strong></td>
+                <td><select name="country" id="country" >
+                    <option value="BG" selected="selected">Bulgaria</option>
+                    <option value="DE">Germany</option>
+                    <option value="EN">England</option>
+                    <option value="USA">USA</option>
+                    <option value="IT">Italy</option>
+                    <option value="ES">Spain</option>
+                    <option value="TR">Turkey</option>
+                </td>
+            </tr>
+            <tr>
+                <td align=right><strong><label for="phone">Phone(country code, area code, number)&nbsp;</label></strong></td>
+                <td>
+                     (+<input type="text" id="phone" name="cCode" pattern="[0-9]{3}" size="7" placeholder="359"/>)<input type="text" name="aCode" pattern="[0-9]{2}" size="7" placeholder="88"/>-<input type="text" name="number" pattern="[0-9]{7}" size="20" placeholder="8600700" />
+                </td>
+            </tr>
+            <tr>
+                <td align=right><strong><label for="email">E-mail&nbsp;</label></strong></td>
+                <td><input type="email" id="email" name="email" placeholder="sample_email@abv.bg"/></td>
+            </tr>
+            <tr>
+                <td align=right><strong><label for="month">Birth date&nbsp;</label></strong></td>
+                <td><label for="month"> Month</label><input type="text" id="month" name="month" size="1" pattern="[0-9]{2}" placeholder="01" /><label for="day">   Day</label><input type="text" id="day" name="day" size="1" pattern="[0-9]{2}" placeholder="01"/><label for="year"> Year(4 digits)</label><input type="text" id="year" name="year" size="4" pattern="19[0-9]{2}" placeholder="1900"/></td>
+            </tr>
+            <tr>
+                <td align=right><strong><label for="gender">Gender&nbsp;</label></strong></td>
+                <td><select name="gender" id="gender">
+                    <option value="m" selected="selected">Male</option>
+                    <option value="f">Female</option>
+                </td>
+            </tr>
+            <tr>
+                <td align=right><strong><label for="stDate">Starting date&nbsp;</label></strong></td>
+                <td><input type="radio" id="stDate" name="starting date" value="Spring 2006"/><label for="stDate">Spring 2006</label>
+                    <input type="radio" id="stDate1" name="starting date" value="Summer 2006"/><label for="stDate1">Summer 2006</label>
+                </td>
+            </tr>
+            <tr>
+                <td align=right><strong><label for="comments">Comments/Questions&nbsp;</label></strong></td>
+                <td><textarea id="comments" placeholder="Please send me not information about the lodging" rows="5" cols="30"></textarea></td>
+            </tr>
+        </table>
+        <table bgcolor="#AFCBE">
+        <colgroup>
+            <col width="220"/>
+            <col width="270"
+        </colgroup>
+            <tr>
+                <td align="right"><input type="submit" name="submit" value="Submit"/></td><td align="left"><input type="reset" value="Clear This Form"/></td>
+            </tr>
+        </table>
+</body>
+</html>

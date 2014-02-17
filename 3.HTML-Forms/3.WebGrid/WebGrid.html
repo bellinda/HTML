@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Web Grid</title>
+</head>
+<body>
+    <form method="post" action="send_info.php">
+    <table border="1" cellpadding="0" cellspacing="0">
+        <tr bgcolor="#ABA"><td colspan="6">&nbsp;Drag a column header and drop it here to group by that column</td></tr>
+        <tr align="left" bgcolor="#ABA">
+            <td>&nbsp;Product ID</td>
+            <td>&nbsp;Product name</td>
+            <td>&nbsp;Unit price</td>
+            <td>&nbsp;Quantity per unit</td>
+            <td>&nbsp;Units in stock</td>
+            <td>&nbsp;Discontinued</td>
+        </tr>
+        <tr bgcolor="#ABA">
+            <td><input type="text" size="5"/></td>
+            <td><input type="text" size="30"/></td>
+            <td><input type="text" size="15"/><img src=1390248450_filter_data.png width="20" height="20"/></td>
+            <td><input type="text" size="20"/></td>
+            <td><input type="text" size="15"/><img src=1390248450_filter_data.png width="20" height="20"/></td>
+            <td>&nbsp;<input type="checkbox"/><img src=1390248450_filter_data.png width="20" height="20"/></td>
+        </tr>
+        <tr>
+            <td align="left" height="30">&nbsp;1</td>
+            <td align="left">&nbsp;Chai</td>
+            <td align="left">&nbsp;$18.00</td>
+            <td align="left">&nbsp;10 boxes x 20 bags</td>
+            <td align="left">&nbsp;39</td>
+            <td align="left">&nbsp;<input type="checkbox"/></td>
+        </tr>
+        <tr>
+            <td align="left" height="30">&nbsp;2</td>
+            <td align="left">&nbsp;Chang</td>
+            <td align="left">&nbsp;$19.00</td>
+            <td align="left">&nbsp;24-12 oz bottles</td>
+            <td align="left">&nbsp;17</td>
+            <td align="left">&nbsp;<input type="checkbox"/></td>
+        </tr>
+        <tr>
+            <td align="left" height="30">&nbsp;3</td>
+            <td align="left">&nbsp;Anissed Syrup</td>
+            <td align="left">&nbsp;$10.00</td>
+            <td align="left">&nbsp;12 - 550 ml bottles</td>
+            <td align="left">&nbsp;13</td>
+            <td align="left">&nbsp;<input type="checkbox"/></td>
+        </tr>
+        <tr>
+            <td align="left" height="30">&nbsp;4</td>
+            <td align="left">&nbsp;Chef Anton's Cajun Seasoning</td>
+            <td align="left">&nbsp;$22.00</td>
+            <td align="left">&nbsp;48 - 6 oz jars</td>
+            <td align="left">&nbsp;53</td>
+            <td align="left">&nbsp;<input type="checkbox"/></td>
+        </tr>
+        <tr>
+            <td align="left" height="30">&nbsp;5</td>
+            <td align="left">&nbsp;Chef Anton's Gumbo Mix</td>
+            <td align="left">&nbsp;$21.35</td>
+            <td align="left">&nbsp;36 boxes</td>
+            <td align="left">&nbsp;0</td>
+            <td align="left">&nbsp;<input type="checkbox"/></td>
+        </tr>
+        <tr>
+            <td align="left" height="30">&nbsp;6</td>
+            <td align="left">&nbsp;Grandma's Boysenberry Spread</td>
+            <td align="left">&nbsp;$25.00</td>
+            <td align="left">&nbsp;12 - 8 oz jars</td>
+            <td align="left">&nbsp;120</td>
+            <td align="left">&nbsp;<input type="checkbox"/></td>
+        </tr>
+        <tr>
+            <td align="left" height="30">&nbsp;7</td>
+            <td align="left">&nbsp;Uncle Bob's Organic Dried Pears</td>
+            <td align="left">&nbsp;$30.00</td>
+            <td align="left">&nbsp;12 - 1 lb pkgs.</td>
+            <td align="left">&nbsp;15</td>
+            <td align="left">&nbsp;<input type="checkbox"/></td>
+        </tr>
+        <tr>
+            <td align="left" height="30">&nbsp;8</td>
+            <td align="left">&nbsp;Northwoods Cranberry Sauce</td>
+            <td align="left">&nbsp;$40.00</td>
+            <td align="left">&nbsp;12 - 12 oz jars</td>
+            <td align="left">&nbsp;6</td>
+            <td align="left">&nbsp;<input type="checkbox"/></td>
+        </tr>
+        <tr>
+            <td align="left" height="30">&nbsp;9</td>
+            <td align="left">&nbsp;Mishi Kobe Niku</td>
+            <td align="left">&nbsp;$97.00</td>
+            <td align="left">&nbsp;18 - 500 g pkgs</td>
+            <td align="left">&nbsp;29</td>
+            <td align="left">&nbsp;<input type="checkbox"/></td>
+        </tr>
+        <tr>
+            <td align="left" height="30">&nbsp;10</td>
+            <td align="left">&nbsp;Ikura</td>
+            <td align="left">&nbsp;$31.00</td>
+            <td align="left">&nbsp;12 - 200 ml jars</td>
+            <td align="left">&nbsp;31</td>
+            <td align="left">&nbsp;<input type="checkbox"/></td>
+        </tr>
+        <tr bgcolor="#ABA">
+            <td colspan="6" >
+                <button><img src=1390266774_519628-128_ArrowLeftDouble.png width="20" height="20"/></button><button>
+                <img src=1390266956_icon-arrow-left-b.png width="20" height="20"/></button>
+                &nbsp;&nbsp;1&nbsp;&nbsp;2&nbsp;&nbsp;3&nbsp;&nbsp;4&nbsp;&nbsp;5&nbsp;&nbsp;6&nbsp;&nbsp;7&nbsp;&nbsp;8&nbsp;&nbsp;9&nbsp;&nbsp;10&nbsp;&nbsp;...&nbsp;
+                <button><img src=1390266963_icon-arrow-right-b.png width="20" height="20" /></button>
+                <button><img src=1390266798_519902-130_ArrowRightDouble.png width="20" height="20" /></button>&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="pSize">Page size:</label>
+                <select name="page size" id="pSize">
+                    <option value="10" selected="selected">10</option>
+                    <option value="20">20</option>
+                    <option value="50">50</option>
+                    <option value="100">100</option>
+                </select>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;335104 items in 33511 pages
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
